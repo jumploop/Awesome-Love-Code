@@ -108,6 +108,22 @@
                 opacity: 0;
             }
         }
+    /* 在原有样式后添加 */
+        .heart-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+            transition: all 0.3s;
+            border: 5px solid #fff;
+        }
+
+        .memories-section {
+            margin-top: 3rem;
+            padding: 2rem;
+            background: rgba(255,255,255,0.1);
+            border-radius: 20px;
+        }
     </style>
 </head>
 <body>
@@ -115,7 +131,7 @@
         <h1>❤️ 情人节快乐！ ❤️</h1>
         
         <div class="heart-photo" onclick="showMessage()">
-            <!-- 可以在此处添加图片 -->
+           <img src="couple-photo.jpg" alt="情人节快乐！" class="heart-img">
         </div>
 
         <div id="messages">
