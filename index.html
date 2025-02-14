@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>情人节快乐！</title>
     <style>
         /* 基础样式 */
@@ -127,6 +127,11 @@
     </style>
 </head>
 <body>
+    <audio id="bgm" loop autoplay>
+    <source src="music.mp3" type="audio/mpeg">
+    <source src="music.ogg" type="audio/ogg">
+    您的浏览器不支持音频播放
+    </audio>
     <div class="container">
         <h1>❤️ 情人节快乐！ ❤️</h1>
         
@@ -144,6 +149,11 @@
     </div>
 
     <script>
+        // 处理自动播放限制
+        document.addEventListener('click', function() {
+        const audio = document.getElementById('bgm');
+        audio.play();
+        }, { once: true }); // 只需要一次点击激活
         // 创建飘落的心形
         function createHearts() {
             const heart = document.createElement('div');
