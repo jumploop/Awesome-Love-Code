@@ -247,8 +247,6 @@
             <img src="https://cdn.jsdelivr.net/gh/sun0225SUN/Awesome-Love-Code/assets/img/web/034.png"/>
         </a>
     </td>
-    </tr>
-    <tr>
         <td valign="top">
         <a target="_blank" href="https://jumploop.github.io/Awesome-Love-Code/Web/035">
             <p align="center">035</p>
