@@ -248,6 +248,14 @@
         </a>
     </td>
     </tr>
+    <tr>
+        <td valign="top">
+        <a target="_blank" href="https://jumploop.github.io/Awesome-Love-Code/Web/035">
+            <p align="center">035</p>
+            <img src="https://cdn.jsdelivr.net/gh/jumploop/Awesome-Love-Code/assets/img/web/035.png"/>
+        </a>
+    </td>
+    </tr>
 </table>
 
 >  032 源自此仓库：https://github.com/fromann/heart  作者：fromann
